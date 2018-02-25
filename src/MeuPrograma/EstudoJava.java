@@ -16,7 +16,14 @@ public class EstudoJava {
      */
     public static void main(String[] args) {
         System.out.println("Minha primeira Aplicação em Java");
+        int idade;
+        idade = 15;
+        System.out.println(idade);
         
+        int idadeAnoQueVem;
+        idadeAnoQueVem = idade + 1;
+        
+        System.out.println(idadeAnoQueVem);
     }
     
 }
