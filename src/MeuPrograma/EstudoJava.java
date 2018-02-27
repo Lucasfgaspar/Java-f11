@@ -25,6 +25,32 @@ public class EstudoJava {
         
         System.out.println(idadeAnoQueVem);
         
+        boolean amigoDoDono = false;
+        if (idade<18 && !amigoDoDono){
+            System.out.println("Não pode entrar");
+        } else {
+            System.out.println("Entrada Liberada");
+        }
+        
+        while (idade < 18){
+            System.out.println(idade);
+            idade = idade + 1;
+        }
+        
+        
+        for (int i=1; i<1000; i++){
+            if (i % 19 == 0){
+                System.out.println("Numero divisivel por 19: "+ i);
+                break;
+            }
+        }
+        
+        for (int i=0; i<100; i++){
+            if (i>50 && i<60){
+                continue;
+            }
+            System.out.println(i);
+        }
     }
     
 }
